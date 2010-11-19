@@ -14,4 +14,9 @@
 </pre>
 
 
-Weekly review of JavaScript
+# Weekly review of JavaScript
+
+## Topics 
+
+This will start with client-side work for pulling content interactively then move back to discussions of core language features.
+
