@@ -1,5 +1,7 @@
 w2
 
+Summary: Sourcing external data.  Global variables with the var keyword and the window object in web pages.  Using console effectively.  Navigating object structures.
+
 * Global functions vs. local functions 
 
 var foo = "jason";
