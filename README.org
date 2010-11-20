@@ -1,4 +1,7 @@
-<pre>
+* Overview 
+
+Provide background on the tutorials through the end of the quarter. 
+
   __                   __           _       _   
   \ \  __ ___   ____ _/ _\ ___ _ __(_)_ __ | |_ 
    \ \/ _` \ \ / / _` \ \ / __| '__| | '_ \| __|
@@ -11,12 +14,11 @@
 / _  \  __/\ V /| |  __/\ V  V / 
 \/ \_/\___| \_/ |_|\___| \_/\_/  
        
-</pre>
 
 
-# Weekly review of JavaScript
+**  Weekly review of JavaScript
 
-## Topics 
+** Topics 
 
 This will start with client-side work for pulling content interactively then move back to discussions of core language features.
 
