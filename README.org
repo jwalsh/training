@@ -1,7 +1,6 @@
 * Overview 
 
-Provide background on the tutorials through the end of the quarter. 
-
+#+BEGIN_EXAMPLE
   __                   __           _       _   
   \ \  __ ___   ____ _/ _\ ___ _ __(_)_ __ | |_ 
    \ \/ _` \ \ / / _` \ \ / __| '__| | '_ \| __|
@@ -14,7 +13,9 @@ Provide background on the tutorials through the end of the quarter.
 / _  \  __/\ V /| |  __/\ V  V / 
 \/ \_/\___| \_/ |_|\___| \_/\_/  
        
+ #+END_EXAMPLE
 
+Provide background on the tutorials through the end of the quarter. 
 
 **  Weekly review of JavaScript
 
