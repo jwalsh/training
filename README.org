@@ -29,7 +29,7 @@ The emphasis is on delivering client-side examples of core JavaScript features w
 
 Create a template for working with jQuery for examples and pulling data externally.
 
-** w2: likesOpenGraph: Global object 
+** w2: simpleOpenGraph: Global object 
 
 Summary: Sourcing external data.  Global variables with the var keyword and the window object in web pages.  Using console effectively.  Navigating object structures.
 
@@ -75,15 +75,15 @@ Summary: Closures, anonymous functions, the foundations of a library.  Sample te
 
 Pull examples from 
 
-** w4: aLibrary: prototypes and oojs
+** w4: simpleLibrary: prototypes and oojs
 
 
-** w5: reviewTools: code review detection patterns
+** w5: simpleTool: code review detection patterns
 
 Show example of code reviews from jQuery, Facebook JavaScript SDK, and YUI for best practices. 
 
-** w6: hoisting 
-** w7: Scope chains, execution context
+** w6: ...hoisting 
+** w7: ...scope chains, execution context
 
 See JDG 8.8 and ...
 ** w8: Culture 
@@ -101,6 +101,7 @@ Mark S. Miller
 Proxies 
 http://www.sdtimes.com/blog/post/2009/04/16/Brendan-Eich-Explains-ECMAScript-Fifth-Edition-To-You.aspx
 
+** w9: simpleCalendar
 * Topics 
 
 This will start with client-side work for pulling content interactively then move back to discussions of core language features.
