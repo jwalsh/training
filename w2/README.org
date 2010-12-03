@@ -1,41 +1,5 @@
-w2
-
-Summary: Sourcing external data.  Global variables with the var keyword and the window object in web pages.  Using console effectively.  Navigating object structures.
-
-* Global functions vs. local functions 
-
-var foo = "jason";
-foo = "jason";
-window.foo = "jason";
-* Review execution contexts for function 
-
-* Review closures 
-
-http://jibbering.com/faq/notes/closures/
-
-* Why would people use boilerplate with 
-
-(function() {})();
-
-Search:  "self-executing anonymous functions"
-
-http://briancrescimanno.com/2009/09/24/how-self-executing-anonymous-functions-work/
+* w2
 
 
-$()
-
-
-"<li>" + 
-
-
-<li>foo</li>
-
-for (var i in a) 
-
-{
-
-return i % 2; 
-
-}
 
 
