@@ -14,15 +14,15 @@ function inherit2() {
 }
 
 // ================================
-// Rent and set prototype 
+// Rent and set prototype
 function inherit3() {
-  
+
 }
 
 // ================================
-// Share the prototype 
+// Share the prototype
 function inherit4() {
-  
+
 }
 
 // ================================
@@ -35,11 +35,14 @@ function inherit5(C, P) {
   C.prototype.constructor = C;
 }
 
+inherit = inherit5; 
 // ================================
-// Examples 
+// Examples
 
 // ================================
-// Logical 
+// Logical
+console.log('==================');
+console.log("Logical");
 function Parent() {}
 Parent.prototype.say = function() { return this.name };
 
@@ -48,20 +51,23 @@ function Child() {}
 inherit(Child, Parent);
 
 var kid = new Child();
-console.log('==================');
 console.log(typeof kid);
 console.log(kid.constructor.name);
 console.log(kid.__proto__);
-console.log('==================');
 for (var p in kid) {
   console.log(p);
 }
 
 // ================================
-// Articles 
+// Articles
+console.log('==================');
+console.log("Articles");
 
 // ================================
-// People 
+// People
+console.log('==================');
+console.log("People");
+
 function Person(name) {
   this.name = name || 'Josh';
   this.address = '123 Main Street';
@@ -77,7 +83,6 @@ var jason = new Developer();
 jason.name = 'Jason';
 jason.phone = '2061234567';
 
-console.log('==================');
 console.log(jason.name + ' is a ' + jason.role);
 for (var p in jason) {
   console.info(p);
