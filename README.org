@@ -17,7 +17,10 @@
 
 Provide background on the tutorials through the end of the quarter. 
 
-The emphasis is on delivering client-side examples of core JavaScript features weekly rather than just language features.
+The emphasis is on delivering client-side examples of core JavaScript
+features weekly rather than just language features; priority is given
+to likely implementation issue for applications.
+
 
 * Schedule 
 
@@ -75,14 +78,15 @@ Summary: Closures, anonymous functions, the foundations of a library.  Sample te
 
 Pull examples from 
 
-** w4: simpleLibrary: prototypes and oojs
+** w4: simpleLibrary: prototypes, constructors, and oojs
 
 
 ** w5: simpleTool: code review detection patterns
 
 Show example of code reviews from jQuery, Facebook JavaScript SDK, and YUI for best practices. 
 
-** w6: ...hoisting 
+Evaluate each with jslint, Closure, and 
+** w6: ..., patterns, hoisting 
 ** w7: ...scope chains, execution context
 
 See JDG 8.8 and ...

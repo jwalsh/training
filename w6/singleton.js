@@ -14,3 +14,4 @@ var u2 = new Universe();
 console.log(u1 === u2);
 
 console.log(typeof Universe.__proto__.constructor);
+console.log(Universe.__proto__.constructor === Universe.constructor);
