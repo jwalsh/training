@@ -1,21 +1,20 @@
 // https://danmartensen.svbtle.com/javascripts-map-reduce-and-filter
 
-var a = [1,2,3,4,5];
+var a = [6,7,1,2,3,4,5];
 
 // map()
-var double = function(n) {
-  return n * 2;
+var triple = function(n) {
+  return n * 3;
 };
 
-var b =[]
-// for (var i = 0; i < a.length; i++) {
-//   b.push(double(a[i]));
-// }
-console.log(b);
+ for (var i = 0; i < a.length; i++) {
+	a[i]= triple(a[i]);
+ }
+//console.log(a);
 
-var c = [];
-// var c = a.map(function(e, i, c) {
-//   return double(e);
-// });
+var b = a.map;
+b(function(e,i,c){
+	return e*e;
+});
 
-console.log(c);
+
