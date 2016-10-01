@@ -16,5 +16,3 @@ var b = a.map;
 b(function(e,i,c){
 	return e*e;
 });
-
-
