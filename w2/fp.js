@@ -26,3 +26,8 @@ function lessthan(b){
 var c = b.filter(lessthan);
 
 console.log(c);
+
+var d = c.reduce(function(a, b){
+	return a+b;
+});
+console.log(d);
