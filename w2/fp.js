@@ -12,7 +12,17 @@ var triple = function(n) {
  }
 //console.log(a);
 
-var b = a.map;
-b(function(e,i,c){
+var b = a.map(function(e,i,c){
 	return e*e;
 });
+
+console.log(b);
+
+function lessthan(b){
+	return b<200;
+}
+
+
+var c = b.filter(lessthan);
+
+console.log(c);
