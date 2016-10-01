@@ -1,6 +1,7 @@
-* Overview 
+Overview
+========
 
-#+BEGIN_EXAMPLE
+``` {.example}
   __                   __           _       _   
   \ \  __ ___   ____ _/ _\ ___ _ __(_)_ __ | |_ 
    \ \/ _` \ \ / / _` \ \ / __| '__| | '_ \| __|
@@ -12,7 +13,7 @@
  / \/// _ \ \ / / |/ _ \ \ /\ / /
 / _  \  __/\ V /| |  __/\ V  V / 
 \/ \_/\___| \_/ |_|\___| \_/\_/  
-       
+
  #+END_EXAMPLE
 
 Provide background on the tutorials through the end of the quarter. 
@@ -53,66 +54,72 @@ A number of libraries and widgets begin with the following boilerplate:
 
 #+BEGIN_EXAMPLE
 (function() {})();
-#+END_EXAMPLE
+```
 
-+ jquery:core.js: var jQuery = (function() {
-*** Notes
+-   jquery:core.js: var jQuery = (function() {
 
-+ http://briancrescimanno.com/2009/09/24/how-self-executing-anonymous-functions-work/
+### Notes
 
-#+BEGIN_EXAMPLE
+-   <http://briancrescimanno.com/2009/09/24/how-self-executing-anonymous-functions-work/>
+
+``` {.example}
 
 for (var i in a) {
   return i % 2; 
 }
 
-#+END_EXAMPLE
+```
 
-** w3: simplePlugin: module pattern
-# <<w3>>
+w3: simplePlugin: module pattern
+--------------------------------
 
-Summary: Closures, anonymous functions, the foundations of a library.  Sample test questions for interviews.
+Summary: Closures, anonymous functions, the foundations of a library.
+Sample test questions for interviews.
 
-*** Scope revisited 
-*** Scope chain
+### Scope revisited
 
-Pull examples from 
+### Scope chain
 
-** w4: simpleLibrary: prototypes, constructors, and oojs
+Pull examples from
 
+w4: simpleLibrary: prototypes, constructors, and oojs
+-----------------------------------------------------
 
-** w5: simpleTool: code review detection patterns
+w5: simpleTool: code review detection patterns
+----------------------------------------------
 
-Show example of code reviews from jQuery, Facebook JavaScript SDK, and YUI for best practices. 
+Show example of code reviews from jQuery, Facebook JavaScript SDK, and
+YUI for best practices.
 
-Evaluate each with jslint, Closure, and 
-** w6: ..., patterns, hoisting 
-** w7: ...scope chains, execution context
+Evaluate each with jslint, Closure, and
+
+w6: ..., patterns, hoisting
+---------------------------
+
+w7: ...scope chains, execution context
+--------------------------------------
 
 See JDG 8.8 and ...
-** w8: Culture 
+
+w8: Culture
+-----------
 
 TODO: Pull from the RSS feed and extract search terms.
 
-Brendan Eich
-Erik Arvidsson
-Sam Tobin-Hochstadt 
-Dave Fugate
-Nebojša Ćirić
-Allen Wirfs-Brock
-Mark S. Miller
+Brendan Eich Erik Arvidsson Sam Tobin-Hochstadt Dave Fugate Nebojša
+Ćirić Allen Wirfs-Brock Mark S. Miller
 
-Proxies 
-http://www.sdtimes.com/blog/post/2009/04/16/Brendan-Eich-Explains-ECMAScript-Fifth-Edition-To-You.aspx
+Proxies
+<http://www.sdtimes.com/blog/post/2009/04/16/Brendan-Eich-Explains-ECMAScript-Fifth-Edition-To-You.aspx>
 
-** w9: simpleCalendar
-* Topics 
+w9: simpleCalendar
+------------------
 
-This will start with client-side work for pulling content interactively then move back to discussions of core language features.
+Topics
+======
 
-* Summary
+This will start with client-side work for pulling content interactively
+then move back to discussions of core language features.
 
-
-
-
-
+Summary
+=======
