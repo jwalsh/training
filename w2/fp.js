@@ -27,10 +27,7 @@ var c = b.filter(lessthan);
 
 console.log(c);
 
-var ws = "this a happy happy place to be a dog".split(' ');
-var d = ws.reduce(function(a, b) {
-  console.log(a);
-  a[b] = a[b] ? ++a[b] : 1;
-  return a;
-}, {});
+var d = c.reduce(function(a, b){
+	return a+b;
+});
 console.log(d);
