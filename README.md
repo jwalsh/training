@@ -1,20 +1,5 @@
-Overview
-========
-
-``` {.example}
-  __                   __           _       _   
-  \ \  __ ___   ____ _/ _\ ___ _ __(_)_ __ | |_ 
-   \ \/ _` \ \ / / _` \ \ / __| '__| | '_ \| __|
-/\_/ / (_| |\ V / (_| |\ \ (__| |  | | |_) | |_ 
-\___/ \__,_| \_/ \__,_\__/\___|_|  |_| .__/ \__|
-                                     |_|        
-   __            _               
-  /__\ _____   _(_) _____      __
- / \/// _ \ \ / / |/ _ \ \ /\ / /
-/ _  \  __/\ V /| |  __/\ V  V / 
-\/ \_/\___| \_/ |_|\___| \_/\_/  
-
- #+END_EXAMPLE
+JavaScript Training: Fall 2016
+==============================
 
 Provide background on the tutorials through the end of the quarter. 
 
@@ -23,52 +8,34 @@ features weekly rather than just language features; priority is given
 to likely implementation issue for applications.
 
 
-* Schedule 
-
-** w1: Setup: IDE, editors, version control, and environment
-# <<w1>>
+w1: Setup: IDE, editors, version control, and environment
+---------------------------------------------------------
 
 + Environment setup for an editor, 
 + version control.  
 
 Create a template for working with jQuery for examples and pulling data externally.
 
-** w2: simpleOpenGraph: Global object 
+w2: Global, Promises, async 
+---------------------------
 
 Summary: Sourcing external data.  Global variables with the var keyword and the window object in web pages.  Using console effectively.  Navigating object structures.
 
-*** Global variables vs. local variables
 
-var foo = "jason";
-foo = "jason";
-window.foo = "jason";
-*** Review execution contexts for function 
+- when and Bluebird
 
-*** Review closures 
+- Promise example
 
-http://jibbering.com/faq/notes/closures/
+- Closures: http://jibbering.com/faq/notes/closures/
 
-*** Why would people use boilerplate for libraries 
+- IIFE: A number of libraries and widgets begin with the following boilerplate:
 
-A number of libraries and widgets begin with the following boilerplate:
-
-#+BEGIN_EXAMPLE
+```
 (function() {})();
 ```
 
--   jquery:core.js: var jQuery = (function() {
+-   http://briancrescimanno.com/2009/09/24/how-self-executing-anonymous-functions-work/
 
-### Notes
-
--   <http://briancrescimanno.com/2009/09/24/how-self-executing-anonymous-functions-work/>
-
-``` {.example}
-
-for (var i in a) {
-  return i % 2; 
-}
-
-```
 
 w3: simplePlugin: module pattern
 --------------------------------
@@ -80,7 +47,6 @@ Sample test questions for interviews.
 
 ### Scope chain
 
-Pull examples from
 
 w4: simpleLibrary: prototypes, constructors, and oojs
 -----------------------------------------------------
@@ -112,14 +78,41 @@ Brendan Eich Erik Arvidsson Sam Tobin-Hochstadt Dave Fugate Nebojša
 Proxies
 <http://www.sdtimes.com/blog/post/2009/04/16/Brendan-Eich-Explains-ECMAScript-Fifth-Edition-To-You.aspx>
 
-w9: simpleCalendar
+w9: MVC
 ------------------
 
-Topics
-======
+- Read Backbone source
+- Create a Router that just supports get against a direct match of the fragment identifier
 
-This will start with client-side work for pulling content interactively
-then move back to discussions of core language features.
+```
+import router from 
+```
++ http://emberjs.com/api/classes/Ember.Router.html
++ http://dailyjs.com/2013/03/07/backbone-tutorial-13/
++ https://github.com/aaronblohowiak/routes.js/blob/master/index.js
 
-Summary
-=======
+- Create a Template tool that only replaces {}
+
++ http://ejohn.org/blog/javascript-micro-templating/
++ https://github.com/janl/mustache.js
+
+- Create a minimal controller
+
+- Create minimal models with no DB backing with TODOMVC as the example
+
+
+w10: Reactive UIs
+-----------------
+
+- React 
+
+w11: State Management
+---------------------
+
+- https://github.com/reactjs/redux
+
+w12: Transpilers
+----------------
+
+
+- TypeScript 
