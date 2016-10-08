@@ -90,6 +90,7 @@ import router from
 + http://emberjs.com/api/classes/Ember.Router.html
 + http://dailyjs.com/2013/03/07/backbone-tutorial-13/
 + https://github.com/aaronblohowiak/routes.js/blob/master/index.js
++ https://expressjs.com/en/starter/basic-routing.html
 
 - Create a Template tool that only replaces {}
 
@@ -97,6 +98,8 @@ import router from
 + https://github.com/janl/mustache.js
 
 - Create a minimal controller
+
++ Handle a response that has a send() method
 
 - Create minimal models with no DB backing with TODOMVC as the example
 
