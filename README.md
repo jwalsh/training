@@ -59,8 +59,8 @@ YUI for best practices.
 
 Evaluate each with jslint, Closure, and
 
-w6: ..., patterns, hoisting
----------------------------
+w6: ES5; ES2015 - ES2017
+------------------------
 
 w7: ...scope chains, execution context
 --------------------------------------
